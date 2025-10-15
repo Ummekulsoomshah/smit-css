@@ -23,3 +23,10 @@ a:hover{
  a:visited{
     color:pink;
  }
+
+input:focus{
+    background-color: red;
+    border: 2px solid yellow;
+    outline: none;
+
+ }
