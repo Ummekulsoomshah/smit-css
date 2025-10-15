@@ -1,0 +1,25 @@
+h1::after{
+    content: "world";
+    color: red;
+}
+p::before{
+    content: "Hi ";
+}
+a{
+    color:red;
+}
+/* hover: when you hover over the text it make changes into that state  */
+a:hover{
+    font-size: 20px;
+    color: pink;
+}
+/* active: when you click over the hyperlink it make changes into that state */
+
+ a:active{
+    border: 2px solid black;
+ }
+/* visited: when you visite the link  it make changes into that state */
+ 
+ a:visited{
+    color:pink;
+ }
