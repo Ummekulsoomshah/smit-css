@@ -1,6 +1,10 @@
-#container{
-    border:2px dashed blue;
-    width: 200px;
-    height: 200px;
-    overflow: scroll;
+#mainImage{
+    width: 300px;
+    /* height: 200px; */
+}
+#search{
+    width: 500px;
+}
+#imageDiv{
+margin-top: 40px;
 }
