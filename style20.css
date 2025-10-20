@@ -1,8 +1,17 @@
 li{
-    display: inline; 
+    display: inline-block; 
+    width: 200px;
+    border: 2px solid black;
     /* block level element ->inline */
 }
-a{
+
+a{ 
     color:black;
     text-decoration: none;
+}
+ul{
+    text-align: center;
+}
+i{
+    display: block;
 }
