@@ -1,5 +1,8 @@
 ul{
     text-align: center;
+
+    border: 2px dashed black;
+    border-style: dashed;
 }
 li{
     display: inline-block;
@@ -7,10 +10,26 @@ li{
 }
 #none-display{
     /* it removes the space as well as the text or content: ; */
-    display: none;
+    /* display: none; */
+    /* it shows the space as well as the text or content: ; */
+    /* display: block; */
+
 
 }
 #visi-none{
     /* it removes the space as well as the text or content: ; */
     visibility: hidden;
+    /* -->oppositie is visible  */
+}
+#card{
+    width: 400px;
+    height: 600px;
+    border: 1px solid gray;
+    /* right bottom blur color ; */
+    box-shadow: 5px 5px 6px black;
+}
+img{
+    width: 400px;
+    height: 450px;
+
 }
