@@ -1,0 +1,16 @@
+ul{
+    text-align: center;
+}
+li{
+    display: inline-block;
+    width:50px;
+}
+#none-display{
+    /* it removes the space as well as the text or content: ; */
+    display: none;
+
+}
+#visi-none{
+    /* it removes the space as well as the text or content: ; */
+    visibility: hidden;
+}
