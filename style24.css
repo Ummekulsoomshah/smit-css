@@ -1,9 +1,14 @@
 .outer-div{
-    height: 500px;
+    height: 1000px;
    border: 2px solid black;
    display: flex;
-   justify-content: space-evenly;
-  /space-between /space-around
+   flex-direction: row;
+   /* y  */
+   align-items: center;
+   /* x  */
+   justify-content: center;
+   /* justify-content: space-evenly;
+   align-items: ; */
 }
 .inner-div{
     width: 500px;
@@ -11,4 +16,5 @@
     background-color: orange;
     border: 2px solid black;
     border-radius: 5px;
+    text-align: center;
 }
