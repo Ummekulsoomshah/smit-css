@@ -6,6 +6,9 @@
    
    flex-wrap: wrap;
    align-items: flex-end;
+      row-gap: 10px;
+   column-gap: 10px;
+   gap: 10px;
 }
 .inner-div{
     width: 700px;
