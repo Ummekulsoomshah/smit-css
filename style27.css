@@ -1,3 +1,4 @@
+
 .outer-div{
     border: 2px solid black;
     height: 900px;
@@ -32,4 +33,22 @@ img{
 #pro-img{
     width: 100%;
     height: 350px;
+}
+.outer-div {
+  border: 2px solid black;
+  height: 900px;
+  display: flex; 
+  flex-direction: row-reverse;                                                       
+}
+.inner-div {
+  border: 2px solid black;
+  border-radius: 5px;
+  height: 400px;
+  background-color: orange;
+  width: 400px;
+  flex: 1;
+}
+#box-end {
+  align-self: flex-end;
+  flex-grow: 2; 
 }
