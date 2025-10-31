@@ -6,3 +6,18 @@ body{
     background-attachment: fixed;
     color: white;
 }
+*{
+    padding: 0;
+    margin: 0;
+}
+.bac-img{
+    width: 100%;
+    height: 100vh;
+    background-image: url('./tomato-5296914_1280.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    color: white;
+filter: blur(3px);
+}
