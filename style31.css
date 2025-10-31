@@ -32,3 +32,42 @@ filter: blur(3px);
 li{
     display: inline-block;
 }
+/* .box1{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    position: sticky;
+    top:200px;
+    left:100px;
+} */
+
+ul {
+  text-align: center;
+  border: 2px solid black;
+  position: sticky;
+  top: 0px;
+  height: 200px;
+  background-color: white;
+}
+li {
+  display: inline-block;
+}
+.pro-card{
+  width: 400px;
+  height: 500px;
+  position: absolute;
+  background-image: url('./tomato-5296914_1280.jpg');
+  background-size: cover;
+  border: 5px solid rgb(164, 25, 25);
+}
+button{
+    position: relative;
+    top:80%;
+    left: 20%;
+    background-color: blueviolet;
+    width: 200px;
+}
+.container{
+    display: flex;
+    border: 1px solid black;
+}
