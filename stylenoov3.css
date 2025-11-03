@@ -20,3 +20,14 @@
 h1 {
   z-index: 3;
 }
+/* .main::after {
+  content: " ";
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+
+  background: linear-gradient(to right,pink 25%, gray 50%, white 75%,blue 100%);
+} */
