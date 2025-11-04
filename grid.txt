@@ -1,0 +1,4 @@
+.grid-template-col->px fr,repeast minmax ,autofill
+.gri-templates-rows
+.grid-templates-areas
+.grid-area
