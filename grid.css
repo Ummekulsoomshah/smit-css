@@ -2,7 +2,9 @@
     display: grid;
     border: 2px solid black;
     height: 800px;
-    grid-template-columns:200px 400px 100px 50px;
+    grid-template-columns:200px 2fr 200px 200px;
+    /* grid-template-columns: repeat(4,200px); */
+    /* fr :fration remain  */
 }
 .box{
     width: 100%;
