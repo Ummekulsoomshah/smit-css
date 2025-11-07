@@ -4,15 +4,55 @@
   border: 2px solid black;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 150px 1fr 1fr 120px;
   grid-template-areas: 
-  "header header header";
+  "header header header"
+  "sidebar content1 content1"
+  "sidebar content2 content3"
+  "footer footer footer"
+  ;
 /* padding: 100px; */
   /* column-gap: 20px; */
 }
 .header{
     background-color: aqua;
     grid-area: header;
-    height: 90px;
+    height:100%;
+    text-align: center;
+    border: 1px solid black;
+}
+.sidebar{
+    background-color: rgb(140, 255, 0);
+    grid-area: sidebar;
+   height:100%;
+    text-align: center;
+    border: 1px solid black;
+}
+.content1{
+    background-color: rgb(17, 0, 255);
+    grid-area: content1;
+   height:100%;
+    text-align: center;
+    border: 1px solid black;
+}
+.content2{
+    background-color: rgb(255, 0, 0);
+    grid-area: content2;
+   height:100%;
+    text-align: center;
+    border: 1px solid black;
+}
+.content3{
+    background-color: rgb(255, 0, 123);
+    grid-area: content3;
+   height:100%;
+    text-align: center;
+    border: 1px solid black;
+}
+.footer{
+    background-color: rgb(208, 255, 0);
+    grid-area: footer;
+    height:100%;
     text-align: center;
     border: 1px solid black;
 }
