@@ -1,49 +1,16 @@
-h1::after{
-    content: "world";
-    color: red;
+*{
+    margin: 0;
+    padding: 0;
 }
-p::before{
-    content: "Hi ";
+.main{
+    width: 100%;
+    height: 100vh;
+    border: 1px solid black;
 }
-a{
-    color:red;
-}
-/* hover: when you hover over the text it make changes into that state  */
-a:hover{
-    font-size: 20px;
-    color: pink;
-}
-/* active: when you click over the hyperlink it make changes into that state */
-
- a:active{
-    border: 2px solid black;
- }
-/* visited: when you visite the link  it make changes into that state */
- 
- a:visited{
-    color:pink;
- }
-
-input:focus{
-    background-color: red;
-    border: 2px solid yellow;
-    outline: none;
-
- }
-
-
-#maindiv{
-    border: 2px solid black;
-    /* width: 200px; */
-    height: 200px;
-    min-width: 400px;
-    /* min-height:100px; */
-    /* width: 200px; */
-}
-
-
-    .product-card{
-    border: 2px solid black;
-    max-width: 400px;
-    min-width: 200px;
+/* GOAL:WHEN THE WIDTH OF SCREEN BECOME 500PX ->THE BACK COLOR OF MAIN DIV BECOME BLACK */
+/* 100 200 400 450 499 500  */
+@media (max-width:500px) {
+    .main{
+        background-color: black;
+    }
 }
